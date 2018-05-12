@@ -1,4 +1,4 @@
-gegevens = open("/Users/arthurdecloedt/Downloads/gegevens2.csv","r")
+gegevens = open("/Users/arthurdecloedt/Downloads/Gegeve.csv","r")
 
 gegevensLST=gegevens.readlines()
 

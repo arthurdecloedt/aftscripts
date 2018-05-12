@@ -1,0 +1,7 @@
+BEGIN:vcard
+VERSION:2.1
+FN:NAME
+N:LNAME;FNAME
+TEL;CELL;PREF:NUMBER
+URL:http://www.aftleuven.be
+END:vcard

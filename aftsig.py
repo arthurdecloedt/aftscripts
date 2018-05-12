@@ -1,4 +1,6 @@
-gegevens = open("/Users/arthurdecloedt/Downloads/gegevens2.csv","r")
+gegevens = open("/Users/arthurdecloedt/Downloads/Gegeve.csv",encoding='utf8')
+
+print(gegevens)
 
 gegevensLST=gegevens.readlines()
 
@@ -23,7 +25,7 @@ for line in gegevensLST:
             linkedin=""
     print(name)
     print("linkedin"+linkedin)
-    persfile=open(name+"SIG.HTML","w")
+    persfile=open("./sig/"+name+".html","w")
 
     sig=sig.replace("NAME",name)
     sig=sig.replace("FUNCTION",function)
